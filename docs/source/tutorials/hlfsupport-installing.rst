@@ -2,12 +2,12 @@
 .. SPDX-License-Identifier: Apache-2.0
 ..
 
-Installing the IBM Support for Hyperledger Fabric
+Installing IBM Support for Hyperledger Fabric
 ======================================
 
 This tutorial will demonstrate how to use the IBM Support for Hyperledger Fabric collection for Ansible to automate the installation of the IBM Support for Hyperledger Fabric software into a Red Hat OpenShift cluster.
 
-If you are using the IBM Support for Hyperledger Fabric on IBM Cloud, you do not need to follow this tutorial. You can not use this Ansible collection to create an instance of the IBM Support for Hyperledger Fabric service on IBM Cloud. If you want to use the IBM Support for Hyperledger Fabric on IBM Cloud, you must create the instance before you attempt to use this Ansible collection. Once you have created an instance, follow the `Building a network <./building.html>`_ tutorial.
+If you are using IBM Support for Hyperledger Fabric on IBM Cloud, you do not need to follow this tutorial. You can not use this Ansible collection to create an instance of the IBM Support for Hyperledger Fabric service on IBM Cloud. If you want to use the IBM Support for Hyperledger Fabric on IBM Cloud, you must create the instance before you attempt to use this Ansible collection. Once you have created an instance, follow the `Building a network <./building.html>`_ tutorial.
 
 This tutorial uses the Ansible roles `crds <../roles/crds.html>`_ and `console <../roles/console.html>`_ to install the IBM Support for Hyperledger Fabric software. If you wish to customize the installation process, then you should review the documentation for these roles.
 
